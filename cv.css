@@ -1,21 +1,24 @@
 /* nav related styles */
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.title{
-color: var(--dark-01, #181818);
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.title {
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.two{
+
+.two {
     color: #FD6E0A;
     font-family: Open Sans;
     font-size: 45px;
@@ -24,26 +27,27 @@ line-height: normal;
     line-height: normal;
 }
 
-nav > ul{
+nav>ul {
     list-style: none;
     display: flex;
-    margin-right:40px;
+    margin-right: 40px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: blueviolet;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-.pro-button{
+
+.pro-button {
 
     border-radius: 5px;
     background: #FD6E0A;
-    border:0;
+    border: 0;
     color: var(--white-color, #FFF);
     font-size: 20px;
     font-style: normal;
@@ -51,9 +55,59 @@ nav li{
     line-height: normal;
 }
 
-.header{
-    background-color:antiquewhite;
+.header {
+    background-color: antiquewhite;
+    background-image: url(/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
+
+.banner {
+
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+}
+
+.imge {
+    margin-left: 300px;
+}
+
+.hi {
+    color: var(--dark-02, #474747);
+}
+
+.name-ashik {
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Main section */
+/* about section */
+.about-me {
+    text-align: center;
+    margin: 130px 0px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.h3 {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.para {
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
