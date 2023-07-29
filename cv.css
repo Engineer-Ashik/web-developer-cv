@@ -54,3 +54,6 @@ nav li{
 .header{
     background-color:antiquewhite;
 }
+.banner{
+    display: flex;
+}
