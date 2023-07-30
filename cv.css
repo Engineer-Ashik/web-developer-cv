@@ -86,6 +86,10 @@ nav li {
 }
 
 /* Main section */
+main{
+    margin: 0px auto;
+    max-width: 1145px;
+}
 /* about section */
 .about-me {
     text-align: center;
@@ -110,4 +114,14 @@ nav li {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+.about-info{
+    display:flex;
+    justify-content: space-around;
+    color:#474747;
+    margin: 130px 0px;
+}
+
+.name .email .dob .from{
+    text-align: center;
 }
