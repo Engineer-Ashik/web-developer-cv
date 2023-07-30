@@ -125,3 +125,8 @@ main{
 .name .email .dob .from{
     text-align: center;
 }
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0px;
+}
