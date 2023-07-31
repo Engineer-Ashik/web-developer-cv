@@ -102,16 +102,12 @@ main{
     color: var(--dark-01, #181818);
     text-align: center;
     font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .para {
     color: var(--dark-03, #757575);
     text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
@@ -129,4 +125,19 @@ main{
     display: flex;
     justify-content: space-around;
     margin: 130px 0px;
+}
+
+.eduex{
+color:#474747;
+font-size: 30px;
+font-weight: 700;
+display: flex;
+}
+
+.education{
+    display: inline;
+}
+
+.experience{
+    display: inline;
 }
