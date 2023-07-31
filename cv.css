@@ -151,3 +151,10 @@ main{
 .eduey{
     padding: 10px;
 }
+
+.btn{
+    text-align: center;
+}
+.footer{
+    display: flex;
+}
