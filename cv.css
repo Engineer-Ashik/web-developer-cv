@@ -127,17 +127,27 @@ main{
     margin: 130px 0px;
 }
 
-.eduex{
-color:#474747;
-font-size: 30px;
-font-weight: 700;
-display: flex;
+.ee{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0px;
+    color:#474747;
 }
 
-.education{
-    display: inline;
+.education{ 
+    border-bottom: 1px solid #474747;
+
 }
 
 .experience{
-    display: inline;
+    border-bottom: 1px solid #474747;
+
+}
+
+.eduex{
+    padding: 10px;
+}
+
+.eduey{
+    padding: 10px;
 }
