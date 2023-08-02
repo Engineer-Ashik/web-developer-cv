@@ -57,9 +57,9 @@ nav li {
 
 .header {
     background-color: antiquewhite;
-    background-image: url(/header_bg.png);
+    background-image: url(/header_bg.png), url(/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 
 }
 
@@ -157,4 +157,9 @@ main{
 }
 .footer{
     display: flex;
+    margin: 0px auto;
+    max-width: 1145px;
+}
+.form input, textarea{
+    display: block;
 }
